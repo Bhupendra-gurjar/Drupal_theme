@@ -1,0 +1,31 @@
+name: Demo
+type: theme
+descrption: "A drupal practice theme"
+core_version_requirement: ^10
+base theme: stable
+version: VERSION
+hidden: false
+libraries:
+- demo/global-styling
+
+
+regions:
+  logo: LOGO
+  top_image: Top News
+  navbar: Navbar
+  content: Content
+  top_slider: Top Slider
+  main_slider: Main Slider
+  categories: Catogories
+  featured: Featured
+  business: Bussienss
+  technology: Technology
+  entertainment: Entertainment
+  sports: Sports
+  popular: Popular
+  tranding: Tranding
+  footer_one: Footer one
+  footer_two: Footer Two
+  footer_three: Footer Three
+  footer_four: Footer four
+

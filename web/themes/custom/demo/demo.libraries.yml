@@ -1,0 +1,15 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+      css/owl.carousel.min.css: {}
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css : { type: external } 
+
+  js:
+    js/easing.min.js: {}
+    https://code.jquery.com/jquery-3.4.1.min.js : { type: external }
+    js/owl.carousel.min.js: {}
+    js/main.js: {}
+    https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js : { type: external }
+  

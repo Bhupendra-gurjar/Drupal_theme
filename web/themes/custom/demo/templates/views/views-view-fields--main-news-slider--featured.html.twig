@@ -1,0 +1,13 @@
+
+{# {{ dump(fields) }} #}
+<div class="position-relative overflow-hidden" style="height: 300px;">
+    {{ fields.field_image.content}}
+    <div class="overlay">
+        <div class="mb-1" style="font-size: 13px;">
+            <a class="text-white" href="">{{ fields.field_categories.content }}</a>
+            <span class="px-1 text-white">/</span>
+            <a class="text-white" href="">{{ fields.changed.content }}</a>
+        </div>
+        <a class="h4 m-0 text-white" href="">{{fields.title.content|raw}}</a>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+name: 'Event Registration'
+type: module
+description: 'Handles event registrations for the Event content type.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:node
